@@ -22,7 +22,7 @@ func main() {
 	client := pb.NewGreetServiceClient(conn)
 
 	names := &pb.NamesList{
-		Names: []string{"Akhil", "Alice", "Bob"},
+		Names: []string{"Aashish", "Ravi", "Dhrutii"},
 	}
 
 	//callSayHello(client)
